@@ -27,8 +27,8 @@ class HomePage extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           Container(
-              child:
-                  Text('Populares', style: Theme.of(context).textTheme.subhead),
+              child: Text('Populares',
+                  style: Theme.of(context).textTheme.subtitle1),
               padding: EdgeInsets.only(left: 20.0)),
           SizedBox(height: 5.0),
           StreamBuilder(
